@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Media/Icons/Favicon.png">
+</head>
+<body>
+  <!-- Header -->
+  <div id="header"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      });
+  </script>
+  <main>
+    <h1>ABOUT</h1>
+    <div class="content-wrapper">
+      <p>This is the official website for DK Outdoors. Here you can buy branded merchandise to represent and help support the channel! Over on YouTube, you can find me doing anything outdoors, from hunting in Kentucky mountains to fishing the creeks and rivers in the valleys. And of course, 'possums. So. Many. Possums. On Instagram, you will find anything from dishes made with something trapped, hunted, or fished, to ice skating across a frozen beaver dam!</p>
+      <img src="Media/Target.png" alt="Target" class="about-image">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<div id="footer"></div>
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+</script>
