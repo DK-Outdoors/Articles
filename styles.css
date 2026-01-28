@@ -41,13 +41,6 @@ nav ul {
   display: flex;
 }
 
-nav ul.left-links {
-  margin-right: 50px ;
-}
-
-nav ul.right-links {
-  margin-left: 50px ;
-}
 
 nav ul li {
   margin: 0 15px;
@@ -81,11 +74,12 @@ main {
 }
 
 h1 {
-  font-family: 'Impact', sans-serif;  /* Ensure Impact font */
+  font-family: 'Oswald', sans-serif;  /* Ensure Impact font */
   text-transform: uppercase;
   letter-spacing: 2px;  /* Adjust the spacing as needed */
   font-size: 60px;  /* Set the desired font size */
-  font-weight: normal;  /* Make the text normal weight */
+  font-weight: 600;
+  letter-spacing: 20px;  /* Make the text normal weight */
 }
 
 h2 {
@@ -98,7 +92,7 @@ h2 {
 
 /* Styles for paragraph text */
 p {
-  font-family: 'Helvetica', sans-serif;  /* Set the desired font family */
+  font-family: 'Oswald', sans-serif;  /* Set the desired font family */
   font-size: 16px;  /* Set the desired font size */
   letter-spacing: 1px;  /* Adjust the letter spacing as needed */
   color: #ffffff;  /* Set the desired text color */
